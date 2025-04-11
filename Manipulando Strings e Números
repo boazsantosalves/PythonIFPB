@@ -1,0 +1,39 @@
+nome = "Maria"
+print(f"Olá {nome}, o que vamos estudar hoje?")
+
+nome = "maria júlia"
+print(f"Olá {nome.lower()} o que vamos estudar hoje? (nome em minúsculo)")
+print(f"Olá {nome.upper()} o que vamos estudar hoje? (nome em maiúsculo)")
+print(f"Olá {nome.title()} o que vamos estudar hoje? (nome em formato de título)")
+
+nome = "boaz alves"
+citacao = "Meu filho tu vai ver coisa, tu vai ver coisa, tu vai ver coisa"
+print(f"{nome.title()} certa vez disse: '{citacao}'")
+
+nome = "boaz alves"
+citacao = f"{nome.title()} certa vez disse: '{citacao}'"
+print(citacao)
+
+nome = " Boaz Alves       "
+print(nome)
+print(nome.lstrip())
+print(nome.rstrip())
+print(nome.strip())
+
+arquivo = "anotacoes_python.txt"
+print(arquivo.removesuffix(".txt"))
+
+print(4+4)
+print(10-2)
+print(4*2)
+print(32/4)
+
+numero_favorito = 25
+print(f"Meu número favorito é {numero_favorito}")
+
+#Concatenando strings e utilizando a função .title()
+mensagem = "Bem-vindo ao curso de Python!"
+print(mensagem)
+nome = "Lucas"
+print(f"Olá, {nome.title()}!")
+
